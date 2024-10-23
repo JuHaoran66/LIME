@@ -1,1 +1,2 @@
 # BASeminar-LIME
+LIME-Local Interpretable Model-Agnostic Explanations
