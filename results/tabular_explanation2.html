@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divOKCKGF6TKAWW7AA"></div>
+        <div class="lime top_div" id="top_div2WOPQXAU99DD2SM"></div>
         
         <script>
-        var top_div = d3.select('#top_divOKCKGF6TKAWW7AA').classed('lime top_div', true);
+        var top_div = d3.select('#top_div2WOPQXAU99DD2SM').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["bad", "good"], [0.26, 0.74]);
+            var pp = new lime.PredictProba(pp_svg, ["bad", "good"], [0.16, 0.84]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["bad", "good"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["alcohol > 11.40", 0.18330313705557474], ["density <= 0.99", 0.10171047244587966], ["pH > 3.28", 0.07278075779500201], ["volatile acidity <= 0.21", 0.06316369318751335], ["chlorides <= 0.04", 0.05904252801943666], ["residual sugar <= 1.70", -0.03446449114339643], ["free sulfur dioxide > 46.00", 0.03439436841610573], ["sulphates <= 0.41", -0.019561899058820557], ["0.27 < citric acid <= 0.32", 0.010042875593944199], ["6.30 < fixed acidity <= 6.80", 0.0013736809649841843]], 1, exp_div);
+                exp.show([["alcohol > 11.40", 0.16937120969446423], ["density <= 0.99", 0.09351331043727334], ["pH > 3.28", 0.06638085430795748], ["volatile acidity <= 0.21", 0.06608855692187844], ["chlorides <= 0.04", 0.05965794089102367]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["alcohol", "11.50", 0.18330313705557474], ["density", "0.99", 0.10171047244587966], ["pH", "3.38", 0.07278075779500201], ["volatile acidity", "0.14", 0.06316369318751335], ["chlorides", "0.03", 0.05904252801943666], ["residual sugar", "1.20", -0.03446449114339643], ["free sulfur dioxide", "53.00", 0.03439436841610573], ["sulphates", "0.35", -0.019561899058820557], ["citric acid", "0.31", 0.010042875593944199], ["fixed acidity", "6.40", 0.0013736809649841843]], 1, raw_div);
+            exp.show_raw_tabular([["alcohol", "11.50", 0.16937120969446423], ["density", "0.99", 0.09351331043727334], ["pH", "3.38", 0.06638085430795748], ["volatile acidity", "0.14", 0.06608855692187844], ["chlorides", "0.03", 0.05965794089102367]], 1, raw_div);
         
         </script>
         </body></html>
